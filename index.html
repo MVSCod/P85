@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+<style>
+body{
+    background-image: url("concrete-road.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+    border-width: 10px;
+    background-color: azure;
+    border-style: ridge;
+}
+
+h1,h3,h4
+{
+               color: rgb(255, 241, 43) !important;
+}
+</style>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.main.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.main.js"></script>
+
+<title>Manobrista</title>
+</head>
+
+
+<body onload="add ();">
+    
+    <center>
+        <h1>Manobrista</h1>
+<h3>Mova o carro VERDE junto com as teclas de comando</h3>
+
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+
+<h4>
+    <b class="text-danger">
+NOTA :
+    </b>
+
+    SE O CARRO VERDE NÃO ESTIVER VISÍVEL, PRESSIONE QUALQUER TECLA DIRECIONAL 
+</h4>
+
+    </center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
